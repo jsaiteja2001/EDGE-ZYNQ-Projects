@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Aug 17 11:43:32 2020
+# Process ID: 5816
+# Current directory: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Gesture_Sensor/Gesture_Sensor.runs/synth_1
+# Command line: vivado.exe -log gesture1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gesture1.tcl
+# Log file: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Gesture_Sensor/Gesture_Sensor.runs/synth_1/gesture1.vds
+# Journal file: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Gesture_Sensor/Gesture_Sensor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gesture1.tcl -notrace
