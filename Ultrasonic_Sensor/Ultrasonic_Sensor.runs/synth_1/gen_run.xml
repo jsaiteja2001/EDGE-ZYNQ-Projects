@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1724435744">
+  <File Type="PA-TCL" Name="Top_Range_Sensor.tcl"/>
+  <File Type="REPORTS-TCL" Name="Top_Range_Sensor_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top_Range_Sensor.vds"/>
+  <File Type="RDS-UTIL" Name="Top_Range_Sensor_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_Range_Sensor_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top_Range_Sensor.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/BCD_converter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/BCD_converter.vhd"/>
+        <Attr Name="ImportTime" Val="1583125461"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Counter.vhd"/>
+        <Attr Name="ImportTime" Val="1583117109"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Display_ctr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Display_ctr.vhd"/>
+        <Attr Name="ImportTime" Val="1583128729"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Distance_calculator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Distance_calculator.vhd"/>
+        <Attr Name="ImportTime" Val="1583117109"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Range_Sensor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Range_Sensor.vhd"/>
+        <Attr Name="ImportTime" Val="1583127156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Trigger_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Trigger_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1583128899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ultra_ise/Top_Range_Sensor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/sources_1/imports/ultra_ise/Top_Range_Sensor.vhd"/>
+        <Attr Name="ImportTime" Val="1583134132"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_Range_Sensor"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/ultrasonic.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Ultrasonic_sensor/Ultrasonic_sensor.srcs/constrs_1/new/ultrasonic.xdc"/>
+        <Attr Name="ImportTime" Val="1597628898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

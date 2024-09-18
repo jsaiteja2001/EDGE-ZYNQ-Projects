@@ -1,0 +1,10 @@
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z10_Sensor_codes/Ultrasonic_Sensor/Ultrasonic_Sensor.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z10_Sensor_codes/Ultrasonic_Sensor/Ultrasonic_Sensor.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Aug 17 10:45:23 2020. For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 111.375 ; gain = 18.055
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug 17 10:45:23 2020...
