@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Aug 17 11:52:26 2020
+# Process ID: 8692
+# Current directory: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Touch_Sensor/Touch_Sensor.runs/impl_1
+# Command line: vivado.exe -log TOUCH.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOUCH.tcl -notrace
+# Log file: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Touch_Sensor/Touch_Sensor.runs/impl_1/TOUCH.vdi
+# Journal file: D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Touch_Sensor/Touch_Sensor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TOUCH.tcl -notrace
