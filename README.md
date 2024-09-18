@@ -68,20 +68,10 @@ These add-ons make it easy to expand the functionality of the board, providing e
 - **Rich Peripheral Support**: With HDMI, TFT, camera, ADC, and sensor interfaces, the board is equipped to handle multimedia and sensor-intensive applications.
 
 ## Getting Started
-
-1. Clone this repository to your local development environment:
-   ```bash
-   git clone https://github.com/your-username/edge-zynq-soc-fpga.git
-   ```
    
-2. Install the required tools for development:
+1. Install the required tools for development:
    - Xilinx Vivado Design Suite (for FPGA design)
    - SDK tools (for ARM Cortex development)
-
-3. Connect the board via USB or Ethernet and follow the setup instructions provided in the [Documentation](docs/setup.md).
-
-4. Explore the available examples and demo applications in the `examples/` directory.
-
 
 ## Contributing
 
