@@ -1,0 +1,499 @@
+
+*** Running vivado
+    with args -log accelerometer_adxl345.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source accelerometer_adxl345.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source accelerometer_adxl345.tcl -notrace
+Command: synth_design -top accelerometer_adxl345 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8664 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 705.098 ; gain = 181.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'accelerometer_adxl345' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:43]
+	Parameter clk_freq bound to: 50 - type: integer 
+	Parameter data_rate bound to: 4'b0100 
+	Parameter data_range bound to: 2'b00 
+	Parameter slaves bound to: 1 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'spi_master' declared at 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/spi_master.vhd:30' bound to instance 'spi_master_0' of component 'spi_master' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'spi_master' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/spi_master.vhd:52]
+	Parameter slaves bound to: 1 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'spi_master' (1#1) [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/spi_master.vhd:52]
+INFO: [Synth 8-3491] module 'LCD' declared at 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/LCD.vhd:34' bound to instance 'lcd_0' of component 'LCD' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'LCD' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/LCD.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'LCD' (2#1) [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/LCD.vhd:44]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'binary_bcd' declared at 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd:5' bound to instance 'binary_bcd_0' of component 'binary_bcd' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'binary_bcd' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd:14]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'binary_bcd' (3#1) [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd:14]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'binary_bcd' declared at 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd:5' bound to instance 'binary_bcd_1' of component 'binary_bcd' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:125]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'binary_bcd' declared at 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd:5' bound to instance 'binary_bcd_2' of component 'binary_bcd' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:130]
+INFO: [Synth 8-226] default block is never used [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:163]
+WARNING: [Synth 8-614] signal 'reset_n' is read in the process but is not in the sensitivity list [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element acceleration_z_int_reg was removed.  [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:235]
+WARNING: [Synth 8-6014] Unused sequential element acceleration_z_reg was removed.  [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:144]
+INFO: [Synth 8-256] done synthesizing module 'accelerometer_adxl345' (4#1) [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:43]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 762.121 ; gain = 238.250
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 766.285 ; gain = 242.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 766.285 ; gain = 242.414
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/constrs_1/imports/new/accelerometer.xdc]
+Finished Parsing XDC File [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/constrs_1/imports/new/accelerometer.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/constrs_1/imports/new/accelerometer.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/accelerometer_adxl345_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/accelerometer_adxl345_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 892.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 892.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'binary_bcd'
+INFO: [Synth 8-4471] merging register 'spi_ena_reg' into 'spi_cont_reg' [D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd:114]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'accelerometer_adxl345'
+INFO: [Synth 8-5545] ROM "acceleration_x_int" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "acceleration_y_int" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                              001 |                               00
+                   shift |                              010 |                               01
+                    done |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'binary_bcd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                              000 |                              000
+                   pause |                              001 |                              001
+               configure |                              010 |                              010
+               read_data |                              011 |                              011
+           output_result |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'accelerometer_adxl345'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'binary_bcd_0' (binary_bcd) to 'binary_bcd_2'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               20 Bit    Registers := 4     
+	               16 Bit    Registers := 6     
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   8 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   3 Input     20 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 4     
+	   8 Input     16 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 4     
+	  19 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  19 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 48    
+	   4 Input      1 Bit        Muxes := 3     
+	  21 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module accelerometer_adxl345 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   8 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 4     
+	   8 Input     16 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   8 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 9     
+Module spi_master 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
+Module LCD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  19 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  19 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	  21 Input      1 Bit        Muxes := 1     
+Module binary_bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     20 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'parameter_data_reg[0]' (FDE) to 'parameter_addr_reg[1]'
+INFO: [Synth 8-3886] merging instance 'parameter_addr_reg[0]' (FDE) to 'parameter_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'parameter_data_reg[1]' (FDE) to 'parameter_addr_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\parameter_addr_reg[1] )
+INFO: [Synth 8-3886] merging instance 'parameter_addr_reg[2]' (FDE) to 'parameter_addr_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\parameter_addr_reg[5] )
+INFO: [Synth 8-3886] merging instance 'spi_tx_data_reg[6]' (FDCE) to 'spi_tx_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[0]' (FDE) to 'spi_master_0/clk_ratio_reg[2]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[1]' (FDE) to 'spi_master_0/slave_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\spi_master_0/clk_ratio_reg[2] )
+INFO: [Synth 8-3886] merging instance 'spi_master_0/last_bit_rx_reg[0]' (FDE) to 'spi_master_0/last_bit_rx_reg[1]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/last_bit_rx_reg[1]' (FDE) to 'spi_master_0/last_bit_rx_reg[2]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/last_bit_rx_reg[2]' (FDE) to 'spi_master_0/last_bit_rx_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\spi_master_0/last_bit_rx_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\spi_master_0/last_bit_rx_reg[4] )
+INFO: [Synth 8-3886] merging instance 'spi_master_0/slave_reg[0]' (FDE) to 'spi_master_0/clk_ratio_reg[3]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[3]' (FDE) to 'spi_master_0/clk_ratio_reg[4]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[4]' (FDE) to 'spi_master_0/clk_ratio_reg[5]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[5]' (FDE) to 'spi_master_0/clk_ratio_reg[6]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[6]' (FDE) to 'spi_master_0/clk_ratio_reg[7]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[7]' (FDE) to 'spi_master_0/clk_ratio_reg[8]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[8]' (FDE) to 'spi_master_0/clk_ratio_reg[9]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[9]' (FDE) to 'spi_master_0/clk_ratio_reg[10]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[10]' (FDE) to 'spi_master_0/clk_ratio_reg[11]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[11]' (FDE) to 'spi_master_0/clk_ratio_reg[12]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[12]' (FDE) to 'spi_master_0/clk_ratio_reg[13]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[13]' (FDE) to 'spi_master_0/clk_ratio_reg[14]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[14]' (FDE) to 'spi_master_0/clk_ratio_reg[15]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[15]' (FDE) to 'spi_master_0/clk_ratio_reg[16]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[16]' (FDE) to 'spi_master_0/clk_ratio_reg[17]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[17]' (FDE) to 'spi_master_0/clk_ratio_reg[18]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[18]' (FDE) to 'spi_master_0/clk_ratio_reg[19]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[19]' (FDE) to 'spi_master_0/clk_ratio_reg[20]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[20]' (FDE) to 'spi_master_0/clk_ratio_reg[21]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[21]' (FDE) to 'spi_master_0/clk_ratio_reg[22]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[22]' (FDE) to 'spi_master_0/clk_ratio_reg[23]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[23]' (FDE) to 'spi_master_0/clk_ratio_reg[24]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[24]' (FDE) to 'spi_master_0/clk_ratio_reg[25]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[25]' (FDE) to 'spi_master_0/clk_ratio_reg[26]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[26]' (FDE) to 'spi_master_0/clk_ratio_reg[27]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[27]' (FDE) to 'spi_master_0/clk_ratio_reg[28]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[28]' (FDE) to 'spi_master_0/clk_ratio_reg[29]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[29]' (FDE) to 'spi_master_0/clk_ratio_reg[30]'
+INFO: [Synth 8-3886] merging instance 'spi_master_0/clk_ratio_reg[30]' (FDE) to 'spi_master_0/clk_ratio_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\spi_master_0/clk_ratio_reg[31] )
+INFO: [Synth 8-3886] merging instance 'spi_tx_data_reg[1]' (FDCE) to 'spi_tx_data_reg[7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 892.840 ; gain = 368.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 909.164 ; gain = 385.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    83|
+|3     |LUT1   |    13|
+|4     |LUT2   |   245|
+|5     |LUT3   |    30|
+|6     |LUT4   |    84|
+|7     |LUT5   |   120|
+|8     |LUT6   |   130|
+|9     |FDCE   |   177|
+|10    |FDPE   |     5|
+|11    |FDRE   |   201|
+|12    |FDSE   |     1|
+|13    |IBUF   |     3|
+|14    |OBUF   |    12|
+|15    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+-------------+------+
+|      |Instance       |Module       |Cells |
++------+---------------+-------------+------+
+|1     |top            |             |  1106|
+|2     |  binary_bcd_0 |binary_bcd   |   114|
+|3     |  binary_bcd_1 |binary_bcd_0 |   111|
+|4     |  lcd_0        |LCD          |   481|
+|5     |  spi_master_0 |spi_master   |   222|
++------+---------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:41 . Memory (MB): peak = 913.973 ; gain = 263.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 913.973 ; gain = 390.102
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 931.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 931.039 ; gain = 636.750
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 931.039 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/project_codes/EDGE_Digital_Sensor_Addon/Zynq_Z20_Sensor_codes/Accelerometer/Accelerometer.runs/synth_1/accelerometer_adxl345.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file accelerometer_adxl345_utilization_synth.rpt -pb accelerometer_adxl345_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 17 11:39:15 2020...

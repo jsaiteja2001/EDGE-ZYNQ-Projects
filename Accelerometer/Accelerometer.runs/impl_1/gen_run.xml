@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1597644484">
+  <File Type="BITSTR-BMM" Name="accelerometer_adxl345_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="accelerometer_adxl345_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="accelerometer_adxl345_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="accelerometer_adxl345_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="accelerometer_adxl345.tcl"/>
+  <File Type="OPT-TIMING" Name="accelerometer_adxl345_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="accelerometer_adxl345_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="accelerometer_adxl345_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="accelerometer_adxl345_reports.tcl"/>
+  <File Type="OPT-DRC" Name="accelerometer_adxl345_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="accelerometer_adxl345.hwdef"/>
+  <File Type="PWROPT-DCP" Name="accelerometer_adxl345_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="accelerometer_adxl345_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="accelerometer_adxl345_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="accelerometer_adxl345_placed.dcp"/>
+  <File Type="PLACE-IO" Name="accelerometer_adxl345_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="accelerometer_adxl345_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="accelerometer_adxl345_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="accelerometer_adxl345_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="accelerometer_adxl345_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="accelerometer_adxl345_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="accelerometer_adxl345_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="accelerometer_adxl345.bgn"/>
+  <File Type="PLACE-TIMING" Name="accelerometer_adxl345_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="accelerometer_adxl345_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="accelerometer_adxl345.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="accelerometer_adxl345_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="accelerometer_adxl345_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="accelerometer_adxl345_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="accelerometer_adxl345.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="accelerometer_adxl345_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="accelerometer_adxl345_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="accelerometer_adxl345_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="accelerometer_adxl345_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="accelerometer_adxl345_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="accelerometer_adxl345_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="accelerometer_adxl345.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="accelerometer_adxl345_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="accelerometer_adxl345.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="accelerometer_adxl345_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="accelerometer_adxl345_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="accelerometer_adxl345.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="accelerometer_adxl345_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="accelerometer_adxl345_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="accelerometer_adxl345_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="accelerometer_adxl345_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="accelerometer_adxl345_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="accelerometer_adxl345_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="accelerometer_adxl345_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="accelerometer_adxl345_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="accelerometer_adxl345_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="accelerometer_adxl345_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="accelerometer_adxl345_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="accelerometer_adxl345_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="accelerometer_adxl345_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="accelerometer_adxl345_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="accelerometer_adxl345_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="accelerometer_adxl345_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="accelerometer_adxl345_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="accelerometer_adxl345_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="accelerometer_adxl345_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="accelerometer_adxl345.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="accelerometer_adxl345_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="accelerometer_adxl345.rbt"/>
+  <File Type="BITSTR-NKY" Name="accelerometer_adxl345.nky"/>
+  <File Type="BG-DRC" Name="accelerometer_adxl345.drc"/>
+  <File Type="RDI-RDI" Name="accelerometer_adxl345.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Accelerometer/LCD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/LCD.vhd"/>
+        <Attr Name="ImportTime" Val="1572418183"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Accelerometer/binary_bcd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/binary_bcd.vhd"/>
+        <Attr Name="ImportTime" Val="1572351464"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Accelerometer/spi_master.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/spi_master.vhd"/>
+        <Attr Name="ImportTime" Val="1572345400"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Accelerometer/Accelerometer.srcs/sources_1/imports/Accelerometer/accelerometer_adxl345.vhd"/>
+        <Attr Name="ImportTime" Val="1597472609"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="accelerometer_adxl345"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/accelerometer.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Artix7_Sensor_codes/Accelerometer/Accelerometer.srcs/constrs_1/new/accelerometer.xdc"/>
+        <Attr Name="ImportTime" Val="1597502847"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
